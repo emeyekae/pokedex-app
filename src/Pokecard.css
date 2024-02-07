@@ -1,0 +1,26 @@
+.Pokecard {
+    flex: 1 0 17%; 
+    margin-left: 1.7em; 
+    margin-right: 1.7em;
+    margin-bottom: 2em;
+    justify-content: center;
+    border-radius: 7%;
+    background-color:  rgb(209, 207, 200);
+}
+
+.Pokecard-name {
+    padding-top: .7em;
+    font-weight: 799.99999;
+    font-size:1.01rem ;
+    color: rgb(37, 46, 222);
+}
+
+.Pokecard-type, .Pokecard-exp {
+font-size: small;
+font-weight: 649.9999694;
+}
+
+.Pokecard-exp {
+ padding-bottom: 10%;
+}
+

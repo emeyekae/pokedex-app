@@ -1,0 +1,17 @@
+
+.Pokedex-title{
+    color:  rgba(77, 75, 69, 0.447);
+    padding-bottom: .6em;
+    display: grid;
+    width: 100%;
+    text-align:center;
+}
+    
+.Pokedex-cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates 4 columns */
+    grid-template-rows: repeat(2, 1fr); /* Creates 2 rows */
+    flex-wrap: nowrap;
+    padding-left: 10%;
+    padding-right: 10%;
+}
